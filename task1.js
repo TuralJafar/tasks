@@ -1,13 +1,12 @@
-var num=2163;
-        var result=0;
-        var ilk_mertebe=num%10;
-        var next_mertebe=0;
-        while(num>0){
-            next_mertebe=(num%10)%10;
-                if(next_mertebe>=ilk_mertebe){
-                    result= next_mertebe;          
-        }
-        num=num/10;
+let a=[6,8,12,15,20];
+let sum=0;
+let count=0
+for (let index = 0; index < a.length; index++) {
+    if (a[index]%3==0) {
+        sum+=a[index];
+        count++;
+        
     }
     
-console.log(result);
+}
+console.log(sum/count);

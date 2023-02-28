@@ -1,20 +1,12 @@
-let number= 28;
-let sum=0;
-if (number==1) {
-    console.log("1 ne sadedir ne murekkeb");
-        
-}
-else
-    for (let i = 2; i <number/2; i++)
-        if(number%i==0)
-            sum++;
-        {
-        }
-    if (sum>0){
-        console.log("eded murekkebdir, prime");
-
+//verilmis adlar siyahisinda adi A ile baslayan sayini tapan alqoritm
+let a=["Ali","Huseyn","Agha","Hesen"];
+let count=0;
+for (let index = 0; index < a.length; index++) {
+    if (a[index][0]=="A"){
+        count++;
     }
-    else{
-        console.log("eded sadedir, composite");
-    }
+            
         
+        
+    }
+    console.log(count);  
