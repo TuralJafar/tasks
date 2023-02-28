@@ -1,0 +1,11 @@
+var a=5249;
+var num1 =(a-a%1000)/1000;
+var num2 =((a-a%100)/100)%10;
+var num3 =((a-a%10)/10)%10;
+var num4 =(a%10);
+var num5=num2+num4;
+var num6=num1+num3;
+var num7=num5*num6;
+console.log(num5);
+console.log(num6);
+console.log(num7);
